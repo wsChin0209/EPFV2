@@ -9,12 +9,20 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_dividend"
+            android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_dividend"
+            android:icon="@drawable/baseline_dividend_24"
             android:title="@string/menu_dividend" />
         <item
             android:id="@+id/nav_investment"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_investment_24"
             android:title="@string/menu_investment" />
     </group>
 </menu>
